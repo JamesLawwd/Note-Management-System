@@ -1,5 +1,5 @@
 
-# create a user table
+# create a user table..
 from sqlalchemy import Column,Integer,String
 from sqlalchemy.orm import relationship
 from database.config import Base
