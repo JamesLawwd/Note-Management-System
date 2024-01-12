@@ -1,7 +1,9 @@
 from sqlalchemy import Column,Integer,String,ForeignKey
 from sqlalchemy.orm import relationship
 from associate.new_association import association_table
-from database.config import Base
+from sqlalchemy.ext.declarative import declarative_base
+from .config import Base
+
 
 class Note(Base):
     __tablename__ = 'notes'

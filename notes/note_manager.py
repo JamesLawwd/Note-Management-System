@@ -1,5 +1,5 @@
 
-from database.config import session
+from sqlalchemy.orm import session
 from  models.note import Note
 
 # function that create a new note

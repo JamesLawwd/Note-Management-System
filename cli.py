@@ -1,10 +1,10 @@
 # creating the cli commands
 import click
-from database.config import Base,engine
+from models.config import Base,engine
 from notes.note_manager import(create_note,list_notes, view_note,edit_note,delete_note) 
 from tags.tag_manager import (create_tag,list_tags,view_tag,edit_tag,delete_tag)
 from Users.user_manager import(create_user, list_users_cmd)
-from association.associate_manager import (insert_association,delete_association)
+from association.new_manager import (insert_association,delete_association)
 
 # Define custom colors
 SUCCESS_COLOR = 'green'

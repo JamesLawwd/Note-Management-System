@@ -1,5 +1,5 @@
 from sqlalchemy import Column,Integer,ForeignKey,Table
-from database.config import Base
+from models.config import Base
 
 # create an association table between note and tag
 association_table = Table(

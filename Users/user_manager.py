@@ -1,6 +1,6 @@
 #  Defining user methods
 from models.user import User #  Import user model
-from database.config import session
+from sqlalchemy.orm import session
 
 def create_user(name):
     try:

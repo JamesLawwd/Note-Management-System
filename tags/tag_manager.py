@@ -1,4 +1,4 @@
-from database.config import session
+from sqlalchemy.orm import session
 from models.tag import Tag
 
 def create_tag(name):

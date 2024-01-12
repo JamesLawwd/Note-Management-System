@@ -1,4 +1,4 @@
-from database.config import session
+from models.config import session
 from associate.new_association import association_table
 from sqlalchemy import insert,delete,select
 

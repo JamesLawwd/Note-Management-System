@@ -1,7 +1,8 @@
 from sqlalchemy import Column,Integer,String,ForeignKey,Table
 from sqlalchemy.orm import relationship
-from database.config import Base
+from .config import Base
 from associate.new_association import association_table
+
 
 
 class Tag(Base):
